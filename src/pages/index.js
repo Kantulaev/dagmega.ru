@@ -92,9 +92,8 @@ export default (() => {
 			</Box>
 			<Button
 				display="flex"
-				type="submit"
+				type="link"
 				href="https://wa.me/79882931800"
-				target="_blank"
 				border-radius="300px"
 				width="min-content"
 				align-items="center"
@@ -104,6 +103,7 @@ export default (() => {
 				background="rgba(0, 119, 204, 0)"
 				border-style="solid"
 				color="#000000"
+				disabled
 			>
 				Связаться
 			</Button>
@@ -462,9 +462,8 @@ export default (() => {
 			<Button
 				display="flex"
 				margin="60px 0px 0px 0px"
-				type="submit"
+				type="link"
 				href="https://disk.yandex.ru/d/sNqhoB8soiTtcw"
-				target="_blank"
 				background="#008fa3"
 				border-radius="300px"
 				width="260px"
