@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Text, Span, Input, Button, Section, Icon, LinkBox } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Button, Section, Icon, LinkBox } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -38,215 +38,75 @@ export default (() => {
 				srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
-			<Components.QuarklycommunityKitMobileSidePanel width="50%">
-				<Override slot="Button Text" lg-display="none" />
-				<Override slot="Button Icon" size="32px" />
-				<Override slot="Content" background="--color-lightD1" />
-				<Box display="flex" justify-content="center" align-items="center" md-flex-direction="column">
+			<Box
+				display="flex"
+				md-margin="0px 0px 15px 0px"
+				sm-flex-direction="column"
+				justify-content="flex-start"
+				align-items="center"
+				grid-gap="24px"
+				sm-align-self="center"
+				sm-justify-content="center"
+				sm-align-content="center"
+				sm-padding="16px 0px 32px 0px"
+				sm-margin="0px 0px 0 0px"
+			>
+				<Box display="flex" grid-gap="8px" align-items="center" sm-font="normal 700 50px/1.2 --fontFamily-googleManrope">
+					<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" sm-font="--headline4">
+						Телефон:
+					</Text>
 					<Link
-						lg-margin="0px 6px 0px 6px"
-						href="#"
+						href="tel:+79882931800"
+						color="--darkL1"
 						text-decoration-line="initial"
-						color="--dark"
-						font="--lead"
-						padding="6px 6px 6px 6px"
-						margin="0px 18px 0px 18px"
-						md-margin="0px 18px 10px 18px"
+						font="normal 300 16px/1.5 --fontFamily-sans"
+						display="block"
+						margin="0px 0px 0px 0px"
+						hover-color="#a78bfa"
+						target="_blank"
+						sm-font="--headline4"
+						sm-text-decoration-line="underline"
 					>
-						Service
-					</Link>
-					<Link
-						font="--lead"
-						padding="6px 6px 6px 6px"
-						margin="0px 18px 0px 18px"
-						md-margin="0px 18px 10px 18px"
-						lg-margin="0px 6px 0px 6px"
-						href="#"
-						text-decoration-line="initial"
-						color="--dark"
-					>
-						About
-					</Link>
-					<Link
-						text-decoration-line="initial"
-						color="--dark"
-						font="--lead"
-						padding="6px 6px 6px 6px"
-						margin="0px 18px 0px 18px"
-						lg-margin="0px 6px 0px 6px"
-						href="#"
-					>
-						Advisors
-					</Link>
-					<Link
-						padding="6px 6px 6px 6px"
-						margin="0px 18px 0px 18px"
-						lg-margin="0px 6px 0px 6px"
-						href="#"
-						text-decoration-line="initial"
-						color="--dark"
-						font="--lead"
-					>
-						Contact
+						+7 (988) 293-18-00
 					</Link>
 				</Box>
-			</Components.QuarklycommunityKitMobileSidePanel>
-			<Components.QuarklycommunityKitPopup display="flex" justify-content="flex-end" md-display="none" width="25%">
-				<Override
-					slot="Button Open"
-					lg-padding="13px 20px 13px 20px"
-					width="180px"
-					lg-margin="0px 16px 0px 0px"
-					border-radius="10px"
-					border-width="1px"
-					background="rgba(0, 119, 204, 0)"
-					color="--dark"
-					font="normal 700 16px/1.5 --fontFamily-googleManrope"
-					padding="13px 45px 13px 45px"
-					border-style="solid"
-					border-color="--color-dark"
-					lg-width="150px"
-					target="_blank"
-					href="https://wa.me/79882931800"
-					type="button"
-				>
-					Связаться
-				</Override>
-				<Override
-					slot="Wrapper"
-					padding="32px 0px 0px 0px"
-					max-width="700px"
-					border-width="1px"
-					border-style="solid"
-					border-color="--color-grey"
-					border-radius="10px"
-				/>
-				<Override slot="Button Close" size="36px" />
-				<Box padding="0px 16px 16px 16px" display="flex" flex-direction="column">
-					<Box padding="0px 16px 16px 16px">
-						<Text margin="0px 0px 16px 0px" font="--headline3">
-							Let's plan your next vacation
-						</Text>
-						<Text margin="0px 0px 48px 0px" font="--lead">
-							Have a question about your future journey? Wondering about one of our destinations? Ask away! That’s what we’re here for.
-						</Text>
-						<Text font="--headline4" margin="0px 0px 0px 0px">
-							Request details
-						</Text>
-					</Box>
-					<Components.QuarklycommunityKitNetlifyForm display="flex" flex-wrap="wrap" width="100%" successMessage="Thanks for you reply">
-						<Box flex-wrap="wrap" display="flex">
-							<Box width="50%" display="flex" padding="16px 16px 16px 16px" flex-direction="column">
-								<Text margin="0px 0px 8px 0px" font="600 24px/1.3 --fontFamily-googleManrope">
-									First name{" "}
-									<Span color="--green">
-										*
-									</Span>
-								</Text>
-								<Input
-									border-color="--color-light"
-									border-width="1px"
-									border-radius="10px"
-									required
-									padding="14px 16px 14px 16px"
-									placeholder="Bill"
-									name="Name"
-									type="text"
-								/>
-							</Box>
-							<Box width="50%" display="flex" padding="16px 16px 16px 16px" flex-direction="column">
-								<Text margin="0px 0px 8px 0px" font="600 24px/1.3 --fontFamily-googleManrope">
-									Last name (optional)
-								</Text>
-								<Input
-									border-radius="10px"
-									name="Last name"
-									padding="14px 16px 14px 16px"
-									placeholder="Salliwan"
-									type="text"
-									border-color="--color-light"
-									border-width="1px"
-								/>
-							</Box>
-							<Box flex-direction="column" width="50%" display="flex" padding="16px 16px 16px 16px">
-								<Text font="600 24px/1.3 --fontFamily-googleManrope" margin="0px 0px 8px 0px">
-									Email address{"\n\n "}
-									<Span
-										text-indent="0"
-										text-overflow="clip"
-										hyphens="manual"
-										color="--green"
-										overflow-wrap="normal"
-										word-break="normal"
-										white-space="normal"
-									>
-										*
-									</Span>
-								</Text>
-								<Input
-									padding="14px 16px 14px 16px"
-									placeholder="billslwn@mailbox.com"
-									name="mail"
-									type="email"
-									border-color="--color-light"
-									border-width="1px"
-									border-radius="10px"
-									required
-								/>
-							</Box>
-							<Box width="50%" display="flex" padding="16px 16px 16px 16px" flex-direction="column">
-								<Text margin="0px 0px 8px 0px" font="600 24px/1.3 --fontFamily-googleManrope">
-									Phone number (optional)
-								</Text>
-								<Input
-									name="tel"
-									type="tel"
-									border-color="--color-light"
-									border-width="1px"
-									border-radius="10px"
-									padding="14px 16px 14px 16px"
-									placeholder="1 916 555-17-29"
-								/>
-							</Box>
-							<Box
-								padding="16px 16px 16px 16px"
-								width="100%"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-							>
-								<Text margin="0px 0px 8px 0px" font="600 24px/1.3 --fontFamily-googleManrope">
-									Phone number (optional)
-								</Text>
-								<Input
-									type="text"
-									width="100%"
-									placeholder="Enter your message here..."
-									name="text"
-									border-width="1px"
-									border-radius="10px"
-									as="textarea"
-									min-height="150px"
-									padding="14px 16px 14px 16px"
-									border-color="--color-light"
-								/>
-								<Text margin="8px 0px 32px 0px" font="--base" color="--grey">
-									5000 characters left
-								</Text>
-								<Button
-									padding="12px 68px 12px 68px"
-									font="--link"
-									background="--color-green"
-									border-radius="10px"
-									hover-opacity=".8"
-								>
-									Submit
-								</Button>
-							</Box>
-						</Box>
-					</Components.QuarklycommunityKitNetlifyForm>
+				<Box display="flex" grid-gap="8px" align-items="center">
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--base" sm-font="--headline4">
+						E-mail:
+					</Text>
+					<Link
+						href="mailto:dagmega@mail.ru?С сайта"
+						color="--darkL2"
+						text-decoration-line="initial"
+						font="normal 300 16px/1.5 --fontFamily-sans"
+						display="block"
+						margin="0px 0px 0px 0px"
+						hover-color="#a78bfa"
+						target="_blank"
+						sm-font="--headline4"
+						sm-text-decoration-line="underline"
+					>
+						dagmega@mail.ru
+					</Link>
 				</Box>
-			</Components.QuarklycommunityKitPopup>
+			</Box>
+			<Button
+				display="flex"
+				type="button"
+				href="https://wa.me/79882931800"
+				target="_blank"
+				border-radius="300px"
+				width="min-content"
+				align-items="center"
+				justify-content="center"
+				font="normal 500 18px/1.5 --fontFamily-googleManrope"
+				border-width="2px"
+				background="rgba(0, 119, 204, 0)"
+				border-style="solid"
+				color="#000000"
+			>
+				Связаться
+			</Button>
 		</Section>
 		<Section padding="60px 0 20px 0" quarkly-title="HeroBlock" min-height="min-content">
 			<Text
@@ -332,7 +192,7 @@ export default (() => {
 					md-font="normal 600 18px/1.2 &quot;Manrope&quot;, sans-serif"
 					md-margin="0px 0px 24px 0px"
 					margin="0px 0px 48px 0px"
-					font="--headline3"
+					font="--headline2"
 					color="--dark"
 					lg-font="normal 600 24px/1.2 &quot;Manrope&quot;, sans-serif"
 				>
@@ -407,7 +267,7 @@ export default (() => {
 				empty-border-style="solid"
 			/>
 		</Section>
-		<Section padding="60px 0 60px 0" quarkly-title="Statistics-7">
+		<Section padding="60px 0 0px 0" quarkly-title="Statistics-7">
 			<Box min-width="100px" min-height="100px" display="flex" md-flex-direction="column">
 				<Box
 					min-width="100px"
@@ -450,7 +310,13 @@ export default (() => {
 					<Text margin="0px 0px 30px 0px" color="--dark" font="normal 700 40px/1.2 --fontFamily-sans" sm-font="normal 700 38px/1.2 --fontFamily-sans">
 						Наша цель - быть лучшими в своем деле
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 18px/1.5 --fontFamily-sansHelvetica" color="#75767d" sm-font="--headline4">
+					<Text
+						margin="0px 0px 0px 0px"
+						font="--headline4"
+						color="#75767d"
+						sm-font="--headline4"
+						md-font="--base"
+					>
 						Мы стремимся к тому, чтобы каждая реклама становилась неотъемлемой частью городской эстетики. Наша цель — не просто видимость, а влияние, которое оставляет след в сердцах и умах. С 2007 года мы творим не просто рекламу, а истории, которые переплетаются с жизнью.{"\n\n"}
 					</Text>
 					<Box
@@ -465,6 +331,7 @@ export default (() => {
 						sm-grid-template-columns="1fr"
 						sm-grid-template-rows="auto"
 						sm-display="flex"
+						md-display="flex"
 					>
 						<Box
 							min-width="100px"
@@ -478,7 +345,7 @@ export default (() => {
 							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 								24,000+
 							</Text>
-							<Text margin="15px 0px 0px 0px" color="#75767d" font="300 18px --fontFamily-sansHelvetica">
+							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4">
 								Завершенных проектов
 							</Text>
 						</Box>
@@ -494,24 +361,8 @@ export default (() => {
 							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 								16+
 							</Text>
-							<Text margin="15px 0px 0px 0px" color="#75767d" font="300 18px --fontFamily-sansHelvetica">
+							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4">
 								Бесперебойной работы
-							</Text>
-						</Box>
-						<Box
-							min-width="100px"
-							padding="0px 0px 0 15px"
-							border-width="0 0 0 1px"
-							border-style="solid"
-							border-color="#d4d5db"
-							margin="0px 0px 30px 0px"
-							min-height="80px"
-						>
-							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
-								99.9%
-							</Text>
-							<Text margin="15px 0px 0px 0px" color="#75767d" font="300 18px --fontFamily-sansHelvetica">
-								Работ в срок
 							</Text>
 						</Box>
 					</Box>
