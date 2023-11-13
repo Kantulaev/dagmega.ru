@@ -12,10 +12,10 @@ export default (() => {
 			<title>
 				Фабрика Рекламы "Мега" - FabricaMega
 			</title>
-			<meta name={"description"} content={"Рекламное агентство в Дагестане с 2007 года. "} />
+			<meta name={"description"} content={"Рекламное агентство в Дагестане с 2007 года. \nБудущее бренда начинается с нас: креативная реклама, которая работает."} />
 			<meta property={"og:title"} content={"Фабрика Рекламы \"Мега\" - FabricaMega"} />
-			<meta property={"og:description"} content={"Рекламное агентство в Дагестане с 2007 года. "} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Vector.png?v=2023-11-13T14:30:01.768Z"} />
+			<meta property={"og:description"} content={"Рекламное агентство в Дагестане с 2007 года. \nБудущее бренда начинается с нас: креативная реклама, которая работает."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15:41:47.789Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/favicon-32x32.png?v=2023-11-13T14:43:14.593Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/apple-icon-152x152.png?v=2023-11-13T14:43:26.555Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/apple-icon-152x152.png?v=2023-11-13T14:43:26.555Z"} />
