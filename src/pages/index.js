@@ -92,7 +92,7 @@ export default (() => {
 			</Box>
 			<Button
 				display="flex"
-				type="button"
+				type="submit"
 				href="https://wa.me/79882931800"
 				target="_blank"
 				border-radius="300px"
@@ -462,7 +462,7 @@ export default (() => {
 			<Button
 				display="flex"
 				margin="60px 0px 0px 0px"
-				type="button"
+				type="submit"
 				href="https://disk.yandex.ru/d/sNqhoB8soiTtcw"
 				target="_blank"
 				background="#008fa3"
