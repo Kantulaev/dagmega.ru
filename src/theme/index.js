@@ -54,7 +54,7 @@ export default {
 		"googlePalanquin": "\"Palanquin\", sans-serif"
 	},
 	"font": {
-		"headline1": "normal 500 80px/1.2 --fontFamily-googlePalanquin",
+		"headline1": "normal 600 80px/1.2 --fontFamily-googlePalanquinDark",
 		"headline2": "normal 700 50px/1.2 --fontFamily-googleManrope",
 		"headline3": "normal 600 40px/1.2 --fontFamily-googleManrope",
 		"base": "normal 500 14px/1.5 --fontFamily-googleManrope",
