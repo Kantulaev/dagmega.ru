@@ -10,10 +10,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				Фабрика Рекламы "Мега" - FabricaMega
+				Фабрика Рекламы "Мега" - DagMega
 			</title>
 			<meta name={"description"} content={"Рекламное агентство в Дагестане с 2007 года. \nБудущее бренда начинается с нас: креативная реклама, которая работает."} />
-			<meta property={"og:title"} content={"Фабрика Рекламы \"Мега\" - FabricaMega"} />
+			<meta property={"og:title"} content={"Фабрика Рекламы \"Мега\" - DagMega"} />
 			<meta property={"og:description"} content={"Рекламное агентство в Дагестане с 2007 года. \nБудущее бренда начинается с нас: креативная реклама, которая работает."} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15:41:47.789Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/favicon-32x32.png?v=2023-11-13T14:43:14.593Z"} type={"image/x-icon"} />
