@@ -61,16 +61,20 @@ export default (() => {
 				href="tel:+79882931800"
 				color="--darkL1"
 				text-decoration-line="initial"
-				font="normal 300 16px/1.5 --fontFamily-sans"
+				font="--headline4"
 				display="block"
 				margin="0px 0px 0px 0px"
 				hover-color="#a78bfa"
 				target="_blank"
 				sm-font="--lead"
-				sm-text-decoration-line="underline"
 				sm-text-align="center"
 				sm-padding="16px 0px 0px 0px"
 				sm-flex="0 1 auto"
+				sm-link-text-decoration-line="underline"
+				sm-text-decoration-line="underline"
+				align-self="center"
+				order="0"
+				lg-font="--lead"
 			>
 				+7 (988) 293-18-00
 			</Link>
@@ -78,15 +82,16 @@ export default (() => {
 				href="mailto:dagmega@mail.ru?С сайта"
 				color="--darkL2"
 				text-decoration-line="initial"
-				font="normal 300 16px/1.5 --fontFamily-sans"
+				font="--headline4"
 				display="block"
 				margin="0px 0px 0px 0px"
 				hover-color="#a78bfa"
 				target="_blank"
 				sm-font="--lead"
-				sm-text-decoration-line="underline"
 				sm-text-align="center"
 				sm-margin="8px 0px 0px 0px"
+				sm-text-decoration-line="underline"
+				lg-font="--lead"
 			>
 				dagmega@mail.ru
 			</Link>
@@ -309,8 +314,8 @@ export default (() => {
 					md-padding="0px 35px 80px 35px"
 					sm-padding="0px 24px 0 24px"
 				>
-					<Text margin="0px 0px 30px 0px" color="--dark" font="normal 700 40px/1.2 --fontFamily-sans" sm-font="normal 700 38px/1.2 --fontFamily-sans">
-						Наша цель - быть лучшими в своем деле
+					<Text margin="0px 0px 30px 0px" color="--dark" font="--headline2" sm-font="--headline4">
+						Быть лучшими в своем деле
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -344,7 +349,7 @@ export default (() => {
 							border-color="#d4d5db"
 							margin="0px 0px 30px 0px"
 						>
-							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--headline4">
 								24,000+
 							</Text>
 							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4" sm-font="--lead">
@@ -360,7 +365,7 @@ export default (() => {
 							margin="0px 0px 30px 0px"
 							min-height="80px"
 						>
-							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--headline4">
 								16+
 							</Text>
 							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4" sm-font="--lead">
@@ -371,22 +376,29 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="54px 0 90px 0" overflow-x="hidden" overflow-y="hidden" background="--color-lightD2">
+		<Section
+			padding="54px 0 90px 0"
+			overflow-x="hidden"
+			overflow-y="hidden"
+			background="--color-lightD2"
+			sm-padding="48px 0 48px 0"
+		>
 			<Override slot="SectionContent" />
 			<Text
 				margin="0px 0px 64px 0px"
-				font="normal 800 50px/1.2 --fontFamily-googlePalanquinDark"
+				font="--headline2"
 				color="--dark"
 				lg-font="normal 600 24px/1.2 &quot;Manrope&quot;, sans-serif"
 				md-font="normal 600 18px/1.2 &quot;Manrope&quot;, sans-serif"
 				display="flex"
-				sm-font="--headline3"
+				sm-font="--headline4"
+				sm-margin="0px 0px 32px 0px"
 			>
 				Примеры работ
 			</Text>
 			<Components.QuarklycommunityKitCarousel
 				showLink={false}
-				max-width="500px"
+				max-width="700px"
 				autoPlayIntervalProp="5s"
 				overflow-x="visible"
 				showHead={false}
@@ -463,15 +475,17 @@ export default (() => {
 			</Components.QuarklycommunityKitCarousel>
 			<Button
 				display="flex"
-				margin="60px 0px 0px 0px"
 				type="link"
 				href="https://disk.yandex.ru/d/sNqhoB8soiTtcw"
 				background="#008fa3"
 				border-radius="300px"
-				width="260px"
 				align-items="center"
 				justify-content="center"
-				font="normal 500 18px/1.5 --fontFamily-googleManrope"
+				font="--headline4"
+				sm-margin="48px 0px 0px 0px"
+				margin="60px 0px 0px 0px"
+				padding="16px 48px 16px 48x"
+				max-width="fit-content"
 			>
 				Посмотреть все работы
 			</Button>
@@ -502,7 +516,7 @@ export default (() => {
 							href="tel:+79882931800"
 							color="--light"
 							text-decoration-line="initial"
-							font="normal 300 16px/1.5 --fontFamily-sans"
+							font="--lead"
 							display="block"
 							margin="0px 0px 0px 0px"
 							hover-color="#a78bfa"
@@ -518,7 +532,7 @@ export default (() => {
 							href="mailto:dagmega@mail.ru?С сайта"
 							color="--light"
 							text-decoration-line="initial"
-							font="normal 300 16px/1.5 --fontFamily-sans"
+							font="--lead"
 							display="block"
 							margin="0px 0px 0px 0px"
 							hover-color="#a78bfa"
