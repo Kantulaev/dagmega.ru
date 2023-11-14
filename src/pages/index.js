@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Button, Section, Icon, LinkBox } from "@quarkly/widgets";
+import { Theme, Link, Image, Button, Section, Text, Box, Icon, LinkBox } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -25,71 +25,71 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/ms-icon-150x150.png?v=2023-11-13T14:43:42.846Z"} />
 			<meta name={"msapplication-TileColor"} content={"#00E0FF"} />
 		</Helmet>
-		<Section padding="18px 0 18px 0" quarkly-title="Header" background="--color-lightD1">
-			<Override slot="SectionContent" justify-content="space-around" flex-direction="row" align-items="center" />
+		<Section padding="18px 0 18px 0" quarkly-title="Header" background="--color-lightD1" sm-display="block">
+			<Override
+				slot="SectionContent"
+				justify-content="space-around"
+				flex-direction="row"
+				align-items="center"
+				sm-display="flex"
+				sm-flex="0 1 auto"
+				sm-order="0"
+				sm-align-self="auto"
+				sm-justify-content="center"
+				sm-flex-direction="column"
+				sm-align-items="center"
+				sm-align-content="center"
+			/>
 			<Image
 				src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15:04:03.181Z"
 				width="25%"
 				height="auto"
 				lg-max-width="150px"
-				sm-width="50%"
 				max-width="200px"
 				max-height="80px"
+				sm-text-align="left"
+				sm-display="flex"
+				sm-align-content="center"
+				sm-justify-content="center"
+				sm-flex-direction="row"
+				sm-margin="24px 0px 0px 0px"
+				sm-min-width="180px"
 				srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/DagMega.png?v=2023-11-13T15%3A04%3A03.181Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
-			<Box
-				display="flex"
-				md-margin="0px 0px 15px 0px"
-				sm-flex-direction="column"
-				justify-content="flex-start"
-				align-items="center"
-				grid-gap="24px"
-				sm-align-self="center"
-				sm-justify-content="center"
-				sm-align-content="center"
-				sm-padding="16px 0px 32px 0px"
-				sm-margin="0px 0px 0 0px"
+			<Link
+				href="tel:+79882931800"
+				color="--darkL1"
+				text-decoration-line="initial"
+				font="normal 300 16px/1.5 --fontFamily-sans"
+				display="block"
+				margin="0px 0px 0px 0px"
+				hover-color="#a78bfa"
+				target="_blank"
+				sm-font="--lead"
+				sm-text-decoration-line="underline"
+				sm-text-align="center"
+				sm-padding="16px 0px 0px 0px"
+				sm-flex="0 1 auto"
 			>
-				<Box display="flex" grid-gap="8px" align-items="center" sm-font="normal 700 50px/1.2 --fontFamily-googleManrope">
-					<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" sm-font="--headline4">
-						Телефон:
-					</Text>
-					<Link
-						href="tel:+79882931800"
-						color="--darkL1"
-						text-decoration-line="initial"
-						font="normal 300 16px/1.5 --fontFamily-sans"
-						display="block"
-						margin="0px 0px 0px 0px"
-						hover-color="#a78bfa"
-						target="_blank"
-						sm-font="--headline4"
-						sm-text-decoration-line="underline"
-					>
-						+7 (988) 293-18-00
-					</Link>
-				</Box>
-				<Box display="flex" grid-gap="8px" align-items="center">
-					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--base" sm-font="--headline4">
-						E-mail:
-					</Text>
-					<Link
-						href="mailto:dagmega@mail.ru?С сайта"
-						color="--darkL2"
-						text-decoration-line="initial"
-						font="normal 300 16px/1.5 --fontFamily-sans"
-						display="block"
-						margin="0px 0px 0px 0px"
-						hover-color="#a78bfa"
-						target="_blank"
-						sm-font="--headline4"
-						sm-text-decoration-line="underline"
-					>
-						dagmega@mail.ru
-					</Link>
-				</Box>
-			</Box>
+				+7 (988) 293-18-00
+			</Link>
+			<Link
+				href="mailto:dagmega@mail.ru?С сайта"
+				color="--darkL2"
+				text-decoration-line="initial"
+				font="normal 300 16px/1.5 --fontFamily-sans"
+				display="block"
+				margin="0px 0px 0px 0px"
+				hover-color="#a78bfa"
+				target="_blank"
+				sm-font="--lead"
+				sm-text-decoration-line="underline"
+				sm-text-align="center"
+				sm-margin="8px 0px 0px 0px"
+			>
+				dagmega@mail.ru
+			</Link>
 			<Button
 				display="flex"
 				type="link"
@@ -104,11 +104,14 @@ export default (() => {
 				border-style="solid"
 				color="#000000"
 				disabled
+				sm-justify-content="center"
+				sm-align-content="center"
+				sm-margin="24px 0px 0px 0px"
 			>
 				Связаться
 			</Button>
 		</Section>
-		<Section padding="60px 0 20px 0" quarkly-title="HeroBlock" min-height="min-content">
+		<Section padding="60px 0 20px 0" quarkly-title="HeroBlock" min-height="min-content" sm-padding="40px 0 20px 0">
 			<Text
 				color="--dark"
 				lg-font="normal 800 40px/1.2 &quot;Manrope&quot;, sans-serif"
@@ -147,7 +150,7 @@ export default (() => {
 					font="--headline2"
 					color="--dark"
 					lg-font="normal 700 28px/1.2 &quot;Manrope&quot;, sans-serif"
-					sm-font="normal 700 22px/1.2 &quot;Manrope&quot;, sans-serif"
+					sm-font="--headline4"
 				>
 					Наша философия
 				</Text>
@@ -164,6 +167,7 @@ export default (() => {
 				empty-min-width="64px"
 				empty-border-width="1px"
 				empty-border-style="solid"
+				sm-margin="24px 0px 0px 0px"
 			>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -195,6 +199,7 @@ export default (() => {
 					font="--headline2"
 					color="--dark"
 					lg-font="normal 600 24px/1.2 &quot;Manrope&quot;, sans-serif"
+					sm-font="--headline4"
 				>
 					Оборудование
 				</Text>
