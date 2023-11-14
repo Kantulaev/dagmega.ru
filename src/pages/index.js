@@ -307,11 +307,8 @@ export default (() => {
 					lg-padding="0px 0px 0px 50px"
 					md-width="100%"
 					md-padding="0px 35px 80px 35px"
-					sm-padding="0px 35px 0 35px"
+					sm-padding="0px 24px 0 24px"
 				>
-					<Text margin="0px 0px 10px 0px" color="#564aec" font="normal 400 20px/1.5 --fontFamily-sansHelvetica">
-						Наша цель
-					</Text>
 					<Text margin="0px 0px 30px 0px" color="--dark" font="normal 700 40px/1.2 --fontFamily-sans" sm-font="normal 700 38px/1.2 --fontFamily-sans">
 						Наша цель - быть лучшими в своем деле
 					</Text>
@@ -319,7 +316,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						font="--headline4"
 						color="#75767d"
-						sm-font="--headline4"
+						sm-font="--lead"
 						md-font="--base"
 					>
 						Мы стремимся к тому, чтобы каждая реклама становилась неотъемлемой частью городской эстетики. Наша цель — не просто видимость, а влияние, которое оставляет след в сердцах и умах. С 2007 года мы творим не просто рекламу, а истории, которые переплетаются с жизнью.{"\n\n"}
@@ -347,10 +344,10 @@ export default (() => {
 							border-color="#d4d5db"
 							margin="0px 0px 30px 0px"
 						>
-							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
+							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
 								24,000+
 							</Text>
-							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4">
+							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4" sm-font="--lead">
 								Завершенных проектов
 							</Text>
 						</Box>
@@ -363,10 +360,10 @@ export default (() => {
 							margin="0px 0px 30px 0px"
 							min-height="80px"
 						>
-							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
+							<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
 								16+
 							</Text>
-							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4">
+							<Text margin="15px 0px 0px 0px" color="#75767d" font="--headline4" sm-font="--lead">
 								Бесперебойной работы
 							</Text>
 						</Box>
@@ -501,9 +498,6 @@ export default (() => {
 					sm-margin="0px 0px 0 0px"
 				>
 					<Box display="flex" grid-gap="8px" align-items="center" sm-font="normal 700 50px/1.2 --fontFamily-googleManrope">
-						<Text margin="0px 0px 0px 0px" font="--base" color="white" sm-font="--headline4">
-							Телефон:
-						</Text>
 						<Link
 							href="tel:+79882931800"
 							color="--light"
@@ -520,9 +514,6 @@ export default (() => {
 						</Link>
 					</Box>
 					<Box display="flex" grid-gap="8px" align-items="center">
-						<Text margin="0px 0px 0px 0px" color="white" font="--base" sm-font="--headline4">
-							E-mail:
-						</Text>
 						<Link
 							href="mailto:dagmega@mail.ru?С сайта"
 							color="--light"
