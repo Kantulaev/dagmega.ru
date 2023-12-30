@@ -431,7 +431,7 @@ export default (() => {
 					Вывеска "ТРОПИКИ"
 				</Override>
 				<Override slot="Slide Image 1" src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20WhatsApp%202022-06-11%20%D0%B2%2014.28.18.jpg?v=2023-11-13T15:41:47.862Z" />
-				<Override slot="Slide Image 2" src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20WhatsApp%202022-06-03%20%D0%B2%2000.08.59.jpg?v=2023-11-13T15:41:47.783Z" />
+				<Override slot="Slide Image 2" src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/photo_2023-12-30_14-08-15.jpg?v=2023-12-30T08:09:15.181Z" />
 				<Override slot="Slide Image 3" src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20WhatsApp%202022-10-12%20%D0%B2%2016.00.29%20%281%29.jpg?v=2023-11-13T15:57:07.587Z" />
 				<Override slot="Slide Head 5">
 					Food & Wine
@@ -445,7 +445,7 @@ export default (() => {
 				<Override slot="Slide Head 10">
 					Spa & wellness
 				</Override>
-				<Override slot="Slide Image" padding="0px 35px 0px 0px" src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20WhatsApp%202022-09-30%20%D0%B2%2009.41.11.jpg?v=2023-11-13T15:41:47.799Z" />
+				<Override slot="Slide Image" padding="0px 35px 0px 0px" src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/photo_2023-12-30_14-08-15.jpg?v=2023-12-30T08:09:15.181Z" />
 				<Override
 					slot="Slide Content"
 					width="100%"
