@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Button, Section, Text, Box, Icon, LinkBox } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, LinkBox, Box, Image, Button, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
+import { TiArrowRight } from "react-icons/ti";
 import { FaWhatsapp } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
@@ -25,6 +26,43 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/ms-icon-150x150.png?v=2023-11-13T14:43:42.846Z"} />
 			<meta name={"msapplication-TileColor"} content={"#00E0FF"} />
 		</Helmet>
+		<Box
+			width="100%"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+			position="static"
+			padding="13px 0px 13px 0px"
+			top="0px"
+			quarkly-title="Banner-2"
+			background="--color-white"
+			md-flex-direction="column"
+			md-display="flex"
+			md-grid-gap="8px"
+		>
+			<Text margin="0px 0px 0px 0px" font="--link" color="--dark" md-text-align="center">
+				Услуги при проведении выборов{" \n\n\n\n\n\n"}
+			</Text>
+			<LinkBox
+				color="--light"
+				margin="0px 0px 0px 16px"
+				text-decoration-line="initial"
+				text-transform="uppercase"
+				background="#008fa3"
+				font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+				padding="6px 16px 6px 16px"
+				border-radius="24px"
+				letter-spacing="0.3px"
+				flex-direction="row"
+				href="https://disk.yandex.ru/i/2eOYr78CqLzU9Q"
+				target="_blank"
+			>
+				<Text margin="0px 0px 1px 0px" text-transform="initial">
+					Расценки
+				</Text>
+				<Icon category="ti" icon={TiArrowRight} size="24px" margin="0px 0px 0px 0px" />
+			</LinkBox>
+		</Box>
 		<Section padding="18px 0 18px 0" quarkly-title="Header" background="--color-lightD1" sm-display="block">
 			<Override
 				slot="SectionContent"
@@ -477,7 +515,7 @@ export default (() => {
 				display="flex"
 				type="link"
 				href="https://disk.yandex.ru/d/sNqhoB8soiTtcw"
-				background="#008fa3"
+				background="#00aec1"
 				border-radius="300px"
 				align-items="center"
 				justify-content="center"
