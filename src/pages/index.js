@@ -168,11 +168,11 @@ export default (() => {
 				max-height="600px"
 				object-position="0% 80%"
 				md-max-height="200px"
-				src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15:20:31.931Z"
+				src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07:36:06.372Z"
 				width="100%"
 				object-fit="cover"
 				margin="32px 0px 0px 0px"
-				srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15%3A20%3A31.931Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15%3A20%3A31.931Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15%3A20%3A31.931Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15%3A20%3A31.931Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15%3A20%3A31.931Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15%3A20%3A31.931Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3.jpg?v=2023-11-13T15%3A20%3A31.931Z&quality=85&w=3200 3200w"
+				srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07%3A36%3A06.372Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07%3A36%3A06.372Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07%3A36%3A06.372Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07%3A36%3A06.372Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07%3A36%3A06.372Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07%3A36%3A06.372Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zbpel7zbpel7zbpe%20%281%29.jpg?v=2026-10-01T07%3A36%3A06.372Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Section>
@@ -261,10 +261,10 @@ export default (() => {
 					width="100%"
 					lg-min-height="390px"
 					sm-min-height="221px"
-					src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15:41:47.789Z"
+					src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07:40:18.313Z"
 					min-height="778px"
 					object-position="23%"
-					srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15%3A41%3A47.789Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15%3A41%3A47.789Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15%3A41%3A47.789Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15%3A41%3A47.789Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15%3A41%3A47.789Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15%3A41%3A47.789Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2%20%281%29.jpg?v=2023-11-13T15%3A41%3A47.789Z&quality=85&w=3200 3200w"
+					srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07%3A40%3A18.313Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07%3A40%3A18.313Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07%3A40%3A18.313Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07%3A40%3A18.313Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07%3A40%3A18.313Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07%3A40%3A18.313Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Gemini_Generated_Image_zihqwtzihqwtzihq%20%281%29.jpg?v=2026-10-01T07%3A40%3A18.313Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
@@ -278,31 +278,6 @@ export default (() => {
 				padding="32px 16px 0px 16px"
 				md-width="50%"
 				md-padding="32px 0px 0px 16px"
-			>
-				<Image
-					lg-min-height="177px"
-					src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15:41:47.785Z"
-					min-height="353px"
-					object-fit="cover"
-					object-position="40% 0%"
-					width="100%"
-					max-width="400px"
-					srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15%3A41%3A47.785Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15%3A41%3A47.785Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15%3A41%3A47.785Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15%3A41%3A47.785Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15%3A41%3A47.785Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15%3A41%3A47.785Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_1.jpg?v=2023-11-13T15%3A41%3A47.785Z&quality=85&w=3200 3200w"
-					sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-			</Box>
-			<Image
-				min-height="450px"
-				object-fit="cover"
-				object-position="40% 0%"
-				src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16:43:41.144Z"
-				width="66%"
-				lg-min-height="225px"
-				md-max-width="none"
-				md-max-height="325px"
-				sm-max-height="188px"
-				srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16%3A43%3A41.144Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16%3A43%3A41.144Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16%3A43%3A41.144Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16%3A43%3A41.144Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16%3A43%3A41.144Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16%3A43%3A41.144Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_3%20%281%29%20%281%29.jpg?v=2023-11-13T16%3A43%3A41.144Z&quality=85&w=3200 3200w"
-				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box
 				padding="32px 0px 0px 16px"
@@ -326,7 +301,7 @@ export default (() => {
 					sm-margin="0px 0px 35px 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15:41:47.780Z"
+						src="https://uploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07:38:48.396Z"
 						display="block"
 						width="auto"
 						height="750px"
@@ -335,7 +310,7 @@ export default (() => {
 						object-position="55% 50%"
 						md-height="600px"
 						sm-height="400px"
-						srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15%3A41%3A47.780Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15%3A41%3A47.780Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15%3A41%3A47.780Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15%3A41%3A47.780Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15%3A41%3A47.780Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15%3A41%3A47.780Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/Leonardo_Diffusion_XL_In_a_bustling_workshop_skilled_craftsmen_2.jpg?v=2023-11-13T15%3A41%3A47.780Z&quality=85&w=3200 3200w"
+						srcSet="https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07%3A38%3A48.396Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07%3A38%3A48.396Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07%3A38%3A48.396Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07%3A38%3A48.396Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07%3A38%3A48.396Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07%3A38%3A48.396Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65522efb8d4a0c0020269b43/images/3phiti.jpg?v=2026-10-01T07%3A38%3A48.396Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
